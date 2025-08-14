@@ -35,7 +35,7 @@ def main():
             chart_data = billboard.get_music(date_str)
  
         if chart_data:
-            st.success(f"Resultados para o mês {mes_num} de {ano} (Billboard Hot 100)")
+            st.success(f"Resultados para {mes_num} de {ano} (Billboard Hot 100)")
  
             # Exibe resultados em formato de tabela ou lista
             table_data = []
